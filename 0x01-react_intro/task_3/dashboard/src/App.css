@@ -1,0 +1,41 @@
+
+
+.App-header {
+  /* background-color: #282c34; */
+  /* min-height: 30px; */
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* font-size: calc(10px + 2vmin); */
+  color: #e0354b;
+  border-bottom: 4px solid #e0354b;
+}
+.App-header h1 {
+  font-weight: bolder;
+}
+.body {
+  height: 200px;
+  padding-top: 30px;
+}
+.body p{
+  padding-left: 40px;
+  font-size: 20px;
+  font-weight: normal;
+}
+.App-footer {
+  border-top: 4px solid #e0354b;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
